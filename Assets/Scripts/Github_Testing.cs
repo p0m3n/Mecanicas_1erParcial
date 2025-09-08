@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Ejemplo1 : MonoBehaviour
+public class Github_Testing : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
