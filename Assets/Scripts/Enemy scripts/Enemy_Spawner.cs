@@ -21,6 +21,7 @@ public class Enemy_Spawner : MonoBehaviour
     void Start()
     {
         
+        
     }
 
     // Update is called once per frame
@@ -31,7 +32,7 @@ public class Enemy_Spawner : MonoBehaviour
         if (timer < 0f)
         {
             x = Random.Range(1, 6);
-            y = Random.Range(1, 5);// numeros random para elegir que enemigo y en que carril
+            y = Random.Range(1, 7);// numeros random para elegir que enemigo y en que carril
             switch (y)
             {
                 case 1:
