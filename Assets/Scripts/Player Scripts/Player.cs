@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
     protected Player player;
 
     [HideInInspector]
-    public bool isFacingLeft;
+    public bool isFacingLeft = false;
     [HideInInspector]
     public bool isGrounded;
     [HideInInspector]
@@ -25,10 +25,17 @@ public class Player : MonoBehaviour
     [HideInInspector]
     public bool isDead;
 
+    public Vector2 FacingDirection
+    {
+        get { return isFacingLeft ? Vector2.left : Vector2.right; }
+    }
+
+
+
     Vector2 facingLeft;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+
+    private void Awake()
     {
         Features();
     }
@@ -38,23 +45,20 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         bc = GetComponent<BoxCollider2D>();
         anim = GetComponent<Animator>();
-
-        player = GetComponent<Player>();
-
-        facingLeft = new Vector2(transform.localScale.x * -1, transform.localScale.y);
     }
 
     public void Flip()
     {
-        if (isFacingLeft)
-        {
-            transform.localScale = facingLeft;
-        }
+        // Invierte el estado
+        isFacingLeft = !isFacingLeft;
 
-        if (!isFacingLeft)
-        {
-            transform.localScale = new Vector2(transform.localScale.x * -1, transform.localScale.y);
-        }
+        // Invierte la escala del objeto para girarlo visualmente
+        Vector3 scaler = transform.localScale;
+        scaler.x *= -1;
+        transform.localScale = scaler;
+
+        // ¡PRUEBA CRÍTICA! Este mensaje nos dirá si la función se está ejecutando.
+        Debug.Log("¡FLIP EJECUTADO! Nuevo estado isFacingLeft = " + isFacingLeft);
     }
 
 }
