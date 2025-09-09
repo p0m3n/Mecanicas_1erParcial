@@ -29,7 +29,11 @@ public class PausaController : MonoBehaviour
 
     private void Update()
     {
+<<<<<<< Updated upstream
         if (pause != null && pause.WasPressedThisFrame()) // Fix: Check if the InputAction was pressed this frame
+=======
+        if (pause != null && pause.WasPressedThisFrame()) 
+>>>>>>> Stashed changes
         {
             Debug.Log("Pause");
             if (PuedePausar())
