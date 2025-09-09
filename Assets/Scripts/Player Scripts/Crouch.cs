@@ -47,7 +47,8 @@ public class Crouch : Player
             // El offset Y se ajusta para que el collider se encoja hacia abajo
             bc.offset = new Vector2(initialColliderOffset.x, initialColliderOffset.y - (initialColliderSize.y * 0.15f));
 
-            horizontal.velocity = 3f;
+            horizontal.velocity = 0.5f;
+
             jump.jumpForce = 3f;
         }
         else

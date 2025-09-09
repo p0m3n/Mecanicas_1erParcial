@@ -286,7 +286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d08672bdf7aa4e419e911ee4406b5cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hangingHorizontalOffset: 0
+  hangingHorizontalOffset: 0.25
   hangingVerticalOffset: -0.6
 --- !u!1 &208377351
 GameObject:
@@ -982,7 +982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d08672bdf7aa4e419e911ee4406b5cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hangingHorizontalOffset: 0
+  hangingHorizontalOffset: 0.25
   hangingVerticalOffset: -0.6
 --- !u!1 &949650677
 GameObject:
@@ -1238,7 +1238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d08672bdf7aa4e419e911ee4406b5cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hangingHorizontalOffset: 0
+  hangingHorizontalOffset: 0.25
   hangingVerticalOffset: -0.6
 --- !u!1 &1018330466
 GameObject:
@@ -1407,7 +1407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d08672bdf7aa4e419e911ee4406b5cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hangingHorizontalOffset: 0
+  hangingHorizontalOffset: 0.25
   hangingVerticalOffset: -0.6
 --- !u!1 &1149575326
 GameObject:
@@ -1664,7 +1664,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d08672bdf7aa4e419e911ee4406b5cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hangingHorizontalOffset: 0
+  hangingHorizontalOffset: 0.25
   hangingVerticalOffset: -0.6
 --- !u!1 &1206375168
 GameObject:
@@ -1813,8 +1813,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d08672bdf7aa4e419e911ee4406b5cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hangingHorizontalOffset: 0
-  hangingVerticalOffset: 0.5
+  hangingHorizontalOffset: 0.25
+  hangingVerticalOffset: -0.6
 --- !u!1 &1218671146
 GameObject:
   m_ObjectHideFlags: 0
@@ -2101,7 +2101,7 @@ MonoBehaviour:
   takingDamage: 0
   isDead: 0
   raycastDistance_hit_roof: 0.15
-  sizeBoxToRoof: {x: 0.47, y: 0.45}
+  sizeBoxToRoof: {x: 0.4, y: 0.45}
   interactuarObjeto: {fileID: 1218671153}
   horizontal: {fileID: 1218671156}
   floorLayer:
@@ -2134,7 +2134,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   onFloor: 0
-  sizeBoxOnFloor: {x: 0.3, y: 0.08}
+  sizeBoxOnFloor: {x: 0.43, y: 0.08}
 --- !u!114 &1218671156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2202,7 +2202,7 @@ MonoBehaviour:
   takingDamage: 0
   isDead: 0
   clip: {fileID: 0}
-  climbingHorizontalOffset: 0.5
+  climbingHorizontalOffset: 0.25
   verticalGrabOffset: 1
   interaccion: {fileID: 1218671153}
 --- !u!1 &1254730085
@@ -2372,7 +2372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d08672bdf7aa4e419e911ee4406b5cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hangingHorizontalOffset: 0
+  hangingHorizontalOffset: 0.25
   hangingVerticalOffset: -0.6
 --- !u!1 &1270839849
 GameObject:
@@ -2541,7 +2541,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d08672bdf7aa4e419e911ee4406b5cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hangingHorizontalOffset: 0
+  hangingHorizontalOffset: 0.25
   hangingVerticalOffset: -0.6
 --- !u!1 &1319861019
 GameObject:
@@ -2710,7 +2710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d08672bdf7aa4e419e911ee4406b5cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hangingHorizontalOffset: 0
+  hangingHorizontalOffset: 0.25
   hangingVerticalOffset: -0.6
 --- !u!1 &1590564759
 GameObject:
@@ -2879,7 +2879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d08672bdf7aa4e419e911ee4406b5cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hangingHorizontalOffset: 0
+  hangingHorizontalOffset: 0.25
   hangingVerticalOffset: -0.6
 --- !u!1 &1669170095
 GameObject:
@@ -3048,7 +3048,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d08672bdf7aa4e419e911ee4406b5cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hangingHorizontalOffset: 0
+  hangingHorizontalOffset: 0.25
   hangingVerticalOffset: -0.6
 --- !u!1 &1847680697
 GameObject:
@@ -3304,7 +3304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d08672bdf7aa4e419e911ee4406b5cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hangingHorizontalOffset: 0
+  hangingHorizontalOffset: 0.25
   hangingVerticalOffset: -0.6
 --- !u!1 &2088130848
 GameObject:
@@ -3473,7 +3473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d08672bdf7aa4e419e911ee4406b5cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hangingHorizontalOffset: 0
+  hangingHorizontalOffset: 0.25
   hangingVerticalOffset: -0.6
 --- !u!114 &11822440104038347
 MonoBehaviour:
