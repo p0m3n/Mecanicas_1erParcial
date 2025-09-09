@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Espi sprite_0: -4156861123848201480
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
