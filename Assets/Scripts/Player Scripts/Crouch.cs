@@ -43,16 +43,16 @@ public class Crouch : Player
             interactuarObjeto.AgarrarSoltar();
 
             // El tamaño Y es la mitad del original
-            bc.size = new Vector2(initialColliderSize.x, initialColliderSize.y * 0.5f);
+            bc.size = new Vector2(initialColliderSize.x, initialColliderSize.y * 0.7f);
             // El offset Y se ajusta para que el collider se encoja hacia abajo
-            bc.offset = new Vector2(initialColliderOffset.x, initialColliderOffset.y - (initialColliderSize.y * 0.25f));
+            bc.offset = new Vector2(initialColliderOffset.x, initialColliderOffset.y - (initialColliderSize.y * 0.15f));
 
             horizontal.velocity = 3f;
             jump.jumpForce = 3f;
         }
         else
         {
-            if (noRoof)
+            if (noRoof && jump.onFloor)
             {
                 isCrouching = false;
                 interactuarObjeto.Arrojar();

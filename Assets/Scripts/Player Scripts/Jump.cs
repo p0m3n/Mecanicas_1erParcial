@@ -19,7 +19,7 @@ public class Jump : Player
     void Update()
     {
         RaycastHit2D hit_floor = Physics2D.BoxCast(transform.position, sizeBoxOnFloor, 0f, Vector2.down, raycastDistance_hit_floor, floorLayer);
-        onFloor = hit_floor.collider != null;
+        onFloor = hit_floor.collider != null && rb.linearVelocity.y <= 0.1f && rb.linearVelocity.y >= -0.1f;
 
         anim.SetBool("OnFloor", onFloor);
         anim.SetFloat("yVelocity", rb.linearVelocity.y);
