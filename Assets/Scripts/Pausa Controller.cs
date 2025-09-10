@@ -1,8 +1,11 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class PausaController : MonoBehaviour
 {
+    public InputAction pause;
+
     [Header("UI")]
     public GameObject panelPausa;
 
@@ -19,15 +22,16 @@ public class PausaController : MonoBehaviour
 
     private void Start()
     {
+        pause = InputSystem.actions.FindAction("Pause");
         if (panelPausa != null)
             panelPausa.SetActive(false);
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (pause != null && pause.WasPressedThisFrame()) // Fix: Check if the InputAction was pressed this frame
         {
-            Debug.Log("Pausa");
+            Debug.Log("Pause");
             if (PuedePausar())
             {
                 if (!enPausa)
