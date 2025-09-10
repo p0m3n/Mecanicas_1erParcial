@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &535825446336199461
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6700417205301452492}
+  - component: {fileID: 5939804994354878103}
+  m_Layer: 0
+  m_Name: Enemy controls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6700417205301452492
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535825446336199461}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5939804994354878103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535825446336199461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1569f7d86f6a6ef4586e64e2ecded679, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 10
+  enemyPrefab_Mike: {fileID: 8475821714592261122, guid: 4ccfda788effe6840bdac2ea8f00b32f, type: 3}
+  enemyPrefab_Casta: {fileID: 7697672174628138988, guid: d52481b9060a7fd4c99bb702e0613877, type: 3}
+  enemyPrefab_Espi: {fileID: 3055146792071471881, guid: 7df999681fb5e2a439ce0f8b9298a50e, type: 3}
+  enemyPrefab_Santi: {fileID: 6418875330552820798, guid: 1766da7baa6c7bc4c8d95cbc3932e7cf, type: 3}
+  enemyPrefab_Doc: {fileID: 9119411867607623298, guid: 0f6bbe90d3b064e409f83e73772e2afa, type: 3}
+  spawnPoint1: {fileID: 0}
+  spawnPoint2: {fileID: 0}
+  spawnPoint3: {fileID: 0}
+  spawnPoint4: {fileID: 0}
+  spawnPoint5: {fileID: 0}
+  spawnPoint6: {fileID: 0}
