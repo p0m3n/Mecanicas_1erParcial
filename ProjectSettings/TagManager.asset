@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy Bullet
   - Enemy
+  - Agarrable
   layers:
   - Default
   - TransparentFX
@@ -13,9 +14,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Floor
+  - Player
+  - PlayerBullet
   - 
   - 
   - 
@@ -42,6 +43,21 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2611269809
+    locked: 0
+  - name: Front-Background
+    uniqueID: 1345774151
+    locked: 0
+  - name: Floor
+    uniqueID: 1894642969
+    locked: 0
+  - name: Player
+    uniqueID: 3115516767
+    locked: 0
+  - name: PlayerBullet
+    uniqueID: 4075466793
     locked: 0
   m_RenderingLayers:
   - Default

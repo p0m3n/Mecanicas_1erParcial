@@ -14,7 +14,7 @@ public class Espi_Enemy : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        target = GameObject.Find("Core").transform; // le puse core por que no se ciomo lo llamaremos en el juego
+        target = GameObject.Find("Player").transform; // le puse core por que no se ciomo lo llamaremos en el juego
     }
     void Update()
     {
