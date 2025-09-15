@@ -130,8 +130,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ed527fdbca674d4aa656174d58092fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  player: {fileID: 0}
+  target: {fileID: 4850679867030934413, guid: e44f1d39a6e86834f8ac2e810dec9245, type: 3}
+  player: {fileID: 4850679867030934413, guid: e44f1d39a6e86834f8ac2e810dec9245, type: 3}
   Santi: {fileID: 3003526447100304070}
   speed: 3
   health: 3

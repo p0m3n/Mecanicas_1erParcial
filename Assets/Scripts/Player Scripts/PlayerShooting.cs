@@ -21,7 +21,7 @@ public class PlayerShooting : MonoBehaviour
     void Update()
     {
         // La condición para disparar sigue igual
-        if (Input.GetButton("Fire1") && Time.time >= nextFireTime)
+        if (Input.GetKey(KeyCode.F) && Time.time >= nextFireTime)
         {
             if (player != null && !player.grabbingLedge)
             {

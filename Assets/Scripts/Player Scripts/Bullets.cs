@@ -1,5 +1,4 @@
-﻿// EN EL SCRIPT DE LA BALA (EJ: Bullets.cs)
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Bullets : MonoBehaviour
 {
@@ -21,9 +20,20 @@ public class Bullets : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Se ejecuta cuando la bala entra en el collider de otro objeto.
+    /// </summary>
     void OnTriggerEnter2D(Collider2D other)
     {
-        // Puedes añadir aquí tu lógica de colisión (ej: con enemigos)
+        // ✅ LÓGICA AÑADIDA
+        // Comprueba si el objeto con el que chocó tiene la etiqueta "Enemy".
+        if (other.CompareTag("Enemy"))
+        {
+            // Si es un enemigo, destruye el objeto del enemigo.
+            Destroy(other.gameObject);
+        }
+
+        // Finalmente, la bala se destruye a sí misma al chocar con cualquier cosa.
         Destroy(gameObject);
     }
 }
